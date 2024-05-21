@@ -1,0 +1,259 @@
+.subscribe1 {
+  position: relative;
+  font-size: 48px;
+  font-weight: 500;
+  text-align: center;
+}
+.terms-of-use {
+  text-decoration: underline;
+}
+.by-creating-an-container {
+  position: relative;
+}
+.link-text {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-5xs) 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icon,
+.label {
+  position: absolute;
+}
+.label {
+  top: 0;
+  left: 0;
+}
+.icon {
+  top: 3px;
+  right: 49px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.hide,
+.password-hide-see {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.password-hide-see {
+  right: 8.86px;
+  width: 73px;
+  height: 27px;
+  display: none;
+  text-align: right;
+  font-size: var(--font-size-lg);
+  color: var(--color-dimgray-300);
+}
+.label-parent {
+  align-self: stretch;
+  position: relative;
+  height: 27px;
+}
+.inputs-child {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 1px;
+  height: 24px;
+}
+.icons,
+.inputs {
+  position: absolute;
+  display: none;
+}
+.inputs {
+  top: 15px;
+  left: 24px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.icons {
+  top: 40px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.text-field1 {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-xs);
+  border: 1px solid var(--color-dimgray-400);
+  box-sizing: border-box;
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+  color: var(--color-gray-100);
+}
+.error-message {
+  position: relative;
+  font-size: var(--font-size-sm);
+  color: var(--color-crimson);
+  display: none;
+}
+.text-field {
+  width: 576px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  color: var(--color-dimgray-100);
+}
+.icons1 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.icons-parent {
+  position: absolute;
+  top: calc(50% - 14px);
+  left: calc(50% - 30px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.button {
+  position: relative;
+  border-radius: 40px;
+  background-color: var(--color-gray-100);
+  width: 576px;
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+.link-text-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  color: rgba(51, 51, 51, 0.7);
+}
+.already-have-an {
+  color: var(--color-darkslategray-100);
+}
+.span {
+  color: var(--color-dimgray-100);
+}
+.have-an-account-login {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-11xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--color-gray-100);
+}
+.subscribe-parent {
+  position: absolute;
+  top: 283px;
+  left: 144px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-45xl);
+}
+.sign-up {
+  position: absolute;
+  top: 0;
+  left: 210px;
+  background-color: var(--color-white);
+  width: 864px;
+  height: 1024px;
+  overflow: hidden;
+}
+.moneyverse-home-office {
+  position: relative;
+  width: 347.83px;
+  height: 242px;
+  object-fit: cover;
+}
+.bullet-point-child {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-dimgray-500);
+  width: 8px;
+  height: 8px;
+}
+.bullet-point {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-5xs) 0;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.bullet-point-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-lg);
+}
+.moneyverse-home-office-parent,
+.your-plan-includes-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xl);
+}
+.moneyverse-home-office-parent {
+  position: absolute;
+  top: 199px;
+  left: 114px;
+  justify-content: flex-end;
+  gap: var(--gap-45xl);
+}
+.illustration-and-plan {
+  position: absolute;
+  top: 0;
+  left: 1344px;
+  background-color: #f7f8fb;
+  width: 576px;
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 32px;
+  color: var(--color-dimgray-500);
+}
+.studentlink {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 900;
+}
+.menu {
+  position: absolute;
+  top: 46px;
+  left: 49px;
+  width: 165px;
+  height: 35px;
+  font-size: 30px;
+  color: #8d8e8d;
+  font-family: var(--font-roboto);
+}
+.subscribe {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-poppins);
+}
